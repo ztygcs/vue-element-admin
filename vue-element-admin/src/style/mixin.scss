@@ -1,0 +1,8 @@
+$hShadow: 0px;
+$vShadow: 6px;
+$blur: 10px;
+$spread: 0px;
+$color: rgba(95, 101, 105, 0.15);
+@mixin box-shadow {
+  box-shadow: $hShadow $vShadow $blur $spread $color;
+}
